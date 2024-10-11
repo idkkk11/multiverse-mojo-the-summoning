@@ -1,5 +1,5 @@
 export const api = {
-  url: 'http://localhost:5000',
+  url: 'http://localhost:8989',
 
   async get(endpoint) {
     console.log('GET', endpoint)

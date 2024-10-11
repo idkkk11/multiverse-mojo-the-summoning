@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --runInBand --watchAll",
     "seed": "node src/db/seed.js",
-    "dev": "nodemon src/run.js",
+    "dev": "nodemon src/run.js -p 8989",
     "start": "node src/run.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
